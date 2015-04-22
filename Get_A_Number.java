@@ -6,7 +6,8 @@ public class Get_A_Number {
 		
 		RandomNumber myRandomNumber = new RandomNumber();
 		
-		System.out.print( myRandomNumber.Get_A_Number() ) ;
+		int computerNum = myRandomNumber.Get_A_Number(500);
+		System.out.print(computerNum);
 	}
 
 }
